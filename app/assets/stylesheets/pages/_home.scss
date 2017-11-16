@@ -1,1 +1,58 @@
 // Specific CSS for your home-page
+//image de fond
+.banner {
+  color: white;
+  text-align: center;
+  height: calc(100vh - 300px);
+  background-size: cover !important;
+  display: flex;
+  justify-content: center;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 0.6;
+  /* margin-bottom: 30px; */
+}
+//Container du haut
+.container{
+	width: 900px;
+	margin:0 auto;
+}
+
+.up{
+	text-align: right;
+	max-height: 40px;
+	font-size: 0.7em;
+	position: sticky !important;
+	top: 0 !important;
+	padding: 15px;
+}
+
+
+.inline li{
+	display:inline-block;
+	width: 120px;
+}
+
+	
+.transparent{
+	background:transparent;
+}
+
+.inline a{
+color:pink;
+text-decoration: none;
+}
+
+.inline a:hover{
+text-decoration: none;
+color:#999999;
+}
+
