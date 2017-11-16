@@ -2,11 +2,9 @@
 //image de fond
 .banner {
   color: white;
-  text-align: center;
   height: calc(100vh - 300px);
   background-size: cover !important;
-  display: flex;
-  justify-content: center;
+  
 }
 .banner h1 {
   font-size: 50px;
@@ -38,7 +36,7 @@
 
 .inline li{
 	display:inline-block;
-	width: 120px;
+	width: 130px;
 }
 
 	
@@ -58,8 +56,71 @@ color:#3f3f3f;
 
 
 .banner-left{
+    display: flex;
+    justify-content: space-around;
     
 }
+.banner-element-left{
+    margin: 0 10px;
+    padding: 0 10px;
+    font-size: 0.7em;
+    width: 130px; 
+    color: white;
+}
+
+.banner-element-left i{
+    color: white;
+}
+    
+.banner-element-left:over, .banner-element-left i:over, {
+    text-decoration:none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ 
+ /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 110px;
+    padding : 10px;
+    font-size: 0.8em;
+    box-shadow: 1px 1px 4px rgba(65, 110, 163, 0.2);
+    border-color: rgba(65, 110, 163,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 3px 6px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {color: #3C79BB}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#menu-industries ul{
+    list-style : none;
+    padding: 3px 3px;
+}
+#menu-industries{
+    flex-wrap:wrap;
+    max-width:250px;
+    max-height:100px;
+}
+
 .banner-right{
     
 }

@@ -7,16 +7,75 @@
 			<li><a href="#">Careers</a></li>
 		</ul>
 	</div>
+	
 	<!-- 2nd bloc avec menus déroulants-->
     <div class="container">
         <div class="banner-left">
-            <!--< %= cl_image_tag "logo_sxcass.png", width :100  %> -->
-            <%= cl_image_tag "logo_sxcass.png", width: 100 %>
-
-            <div>PRODUCT</div>
-            <div>INDUSTRIES</div>
-            <div>RESSOURCES</div>
+            <%=  cl_image_tag("Checkr-1200px-logo_wuimyw.png", :width=>100, :crop=>"scale") %>
+    <!-- menus déroulants-->
+        <div class="banner-element-left">
+               <div class="dropdown">
+                  <span class="dropbtn"><strong>PRODUCT <i class="fa fa-sort-desc" aria-hidden="true"></i></strong></span>
+                  <div class="dropdown-content">
+                    <a href="#">Overview</a>
+                    <a href="#">Screenings</a>
+                    <a href="#">Compliance</a>
+                     <a href="#">Security</a>
+                  </div>
+                </div>
         </div>
+        
+        <div class="banner-element-left">
+               <div class="dropdown">
+                  <span class="dropbtn"><strong>INDUSTRIES <i class="fa fa-sort-desc" aria-hidden="true"></i></strong></span>
+                  <div class="dropdown-content">
+                        <table>
+                        	<tbody>
+                        		<tr>
+                        			<td><a href="https://checkr.com/industries/on-demand-economy/">On-Demand Economy</a></td>
+                        			<td><a href="https://checkr.com/industries/contact-centers/">Contact Centers</a></td>
+                        		</tr>
+                        		<tr>
+                        			<td><a href="https://checkr.com/industries/financial-services/">Financial Services</a></td>
+                        			<td><a href="https://checkr.com/industries/manufacturing/">Manufacturing</a></td>
+                        		</tr>
+                        		<tr>
+                        			<td><a href="https://checkr.com/industries/retail-hospitality/">Retail &amp; Hospitality</a></td>
+                        			<td><a href="https://checkr.com/industries/software-and-technology/">Software &amp; Technology</a></td>
+                        		</tr>
+                        		<tr>
+                        			<td><a href="https://checkr.com/industries/healthcare/">Healthcare</a></td>
+                        			<td><a href="https://checkr.com/industries/small-business/">Small Business</a></td>
+                        		</tr>
+                        		<tr>
+                        			<td><a href="https://checkr.com/industries/nonprofit/">Non Profit</a></td>
+                        			<td><a href="https://checkr.com/industries/p2p-marketplaces/">P2P Marketplaces</a></td>
+                        		</tr>
+                        		<tr>
+                        			<td><a href="https://checkr.com/industries/staffing/">Staffing</a></td>
+                        			<td><a href="https://checkr.com/industries/higher-education/">Higher Education</a></td>
+                        		</tr>
+                        
+                        	</tbody>
+                        </table>
+                  </div>
+                </div>
+        </div>        
+           
+        <div class="banner-element-left">
+               <div class="dropdown">
+                  <span class="dropbtn"><strong>RESOURCES <i class="fa fa-sort-desc" aria-hidden="true"></i></strong></span>
+                  <div class="dropdown-content">
+                    <a href="#">Overview</a>
+                    <a href="#">Guides & White Papers</a>
+                    <a href="#">FAQ</a>
+                  </div>
+                </div>
+        </div>           
+           
+        </div>
+				
+            
         
         <div class="banner-right">
             <div>LOG IN</div>
@@ -27,7 +86,7 @@
     	<!-- Fin 2nd bloc avec menus déroulants-->
     	<!--row hire + image-->
     <div class="container">
-        div
+       
         
     </div>
     
