@@ -8,7 +8,7 @@
 //image de fond
 .banner {
   color: white;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 111px);
   background-size: cover !important;
   
 }
@@ -38,6 +38,7 @@
 	position: sticky !important;
 	top: 0 !important;
 	padding-bottom: 15px;
+	padding-top: 15px;
 }
 .horizontal{
     display: flex;
@@ -206,7 +207,7 @@ color:#3f3f3f;
 
 .bigtext{
     text-align: left;
-    margin-right: 20px;
+    margin-right: 30px important!;
     display: block;
     width: 50%;
 }
