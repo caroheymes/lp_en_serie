@@ -9,7 +9,7 @@
 	</div>
 	
 	<!-- 2nd bloc avec menus déroulants-->
-    <div class="container">
+    <div class="container horizontal">
         <div class="banner-left">
             <%=  cl_image_tag("Checkr-1200px-logo_wuimyw.png", :width=>100, :crop=>"scale") %>
     <!-- menus déroulants-->
@@ -78,8 +78,11 @@
             
         
         <div class="banner-right">
-            <div>LOG IN</div>
-            <div>GET STARTED</div>
+            <ul class= "right-menu-elements list-inline">
+					<li class=" inline btn-medium"><a target="_blank" href="https://dashboard.checkr.com/login?next=%2Freports"><strong>LOG IN</strong></a></li>
+					<li class="inline btn-treehouse"><a href="#">GET STARTED</a></li>
+			</ul>
+
         </div>
       
     </div>

@@ -1,4 +1,10 @@
-// Specific CSS for your home-page
+// Pour tous les liens
+.a{
+    text-decoration : none !important;
+}
+.a:hover{
+    text-decoration : none !important;
+}
 //image de fond
 .banner {
   color: white;
@@ -32,14 +38,19 @@
 	top: 0 !important;
 	padding: 15px;
 }
-
+.horizontal{
+    display: flex;
+    align-items: center;
+}
 
 .inline li{
 	display:inline-block;
 	width: 130px;
 }
 
-	
+.ul{
+    list-style :none !important;
+}	
 .transparent{
 	background:transparent;
 }
@@ -57,7 +68,8 @@ color:#3f3f3f;
 
 .banner-left{
     display: flex;
-    justify-content: space-around;
+    flex : 0 0 40%; /*largeur  de 40px */
+    justify-content: space-between;
     
 }
 .banner-element-left{
@@ -121,6 +133,68 @@ color:#3f3f3f;
     max-height:100px;
 }
 
+.list-inline{
+	list-style: none;
+}
+
+.list-inline li{
+	display:inline-block;
+	width: 125px;
+	margin: 0px auto;
+}
+
 .banner-right{
+    display: flex;
+    justify-content: space-between;
+}
+.right-menu-elements{
+    display: inline-block;
+}
+
+
+.btn-medium {
+  color: white;
+  text-decoration: none !important;
+    min-width: 110px;
+    padding : 10px;
+    font-size: 0.8em;
+}
+
+.btn-medium:hover {
+  opacity: 1;
+  color:#3f3f3f;
+  text-decoration: none;
+}
+
+.btn-medium a:hover {
+  text-decoration: none;
+}
+.btn-treehouse {
+  color: yellow;
+  text-decoration: none !important;
+  border: 1px solid yellow;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.8em;
+  transition: background 0.3s ease;
+}
+.btn-treehouse:hover {
+  opacity: 1;
+  background: yellow;
+  color: #102533 !important;
+  text-decoration: none;
+}
+
+.btn-treehouse a:hover {
+  text-decoration: none;
+}
+
+.banner-right ul{
+    list-style: none;
+    float: right;
+    
+    
     
 }
+
