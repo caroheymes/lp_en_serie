@@ -8,7 +8,7 @@
 //image de fond
 .banner {
   color: white;
-  height: calc(100vh - 300px);
+  height: calc(100vh - 100px);
   background-size: cover !important;
   
 }
@@ -25,18 +25,19 @@
   /* margin-bottom: 30px; */
 }
 //Container du haut
-.container{
+.moncontainer{
 	width: 900px;
-	margin:0 auto;
+	margin: 0px auto;
+	
 }
 
 .up{
 	text-align: right;
-	max-height: 40px;
+	max-height: 50px;
 	font-size: 0.7em;
 	position: sticky !important;
 	top: 0 !important;
-	padding: 15px;
+	padding-bottom: 15px;
 }
 .horizontal{
     display: flex;
@@ -47,6 +48,7 @@
 	display:inline-block;
 	width: 130px;
 }
+
 
 .ul{
     list-style :none !important;
@@ -158,12 +160,14 @@ color:#3f3f3f;
     min-width: 110px;
     padding : 10px;
     font-size: 0.8em;
+    text-align: center;
 }
 
 .btn-medium:hover {
   opacity: 1;
   color:#3f3f3f;
   text-decoration: none;
+  text-align: center;
 }
 
 .btn-medium a:hover {
@@ -173,11 +177,12 @@ color:#3f3f3f;
   color: yellow;
   text-decoration: none !important;
   border: 1px solid yellow;
-  padding: 10px 15px;
+  padding: 10px 20px;
   border-radius: 4px;
   font-weight: bold;
   font-size: 0.8em;
   transition: background 0.3s ease;
+  text-align: center;
 }
 .btn-treehouse:hover {
   opacity: 1;
@@ -193,8 +198,33 @@ color:#3f3f3f;
 .banner-right ul{
     list-style: none;
     float: right;
+}
+.space{
+    width: 50px;
+}
+// style des blocks Hire great people
+
+.bigtext{
+    text-align: left;
+    margin-right: 20px;
+    display: block;
+    width: 50%;
+}
+.disp-block{
+    display: block;
+}
     
-    
-    
+.rel{
+    margin-top: 200px;
+    position: relative;
+    align-items: center;
+}
+
+.abs-bottom{
+
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 50%;
 }
 
