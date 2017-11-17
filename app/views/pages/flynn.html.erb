@@ -1,77 +1,59 @@
-<nav class="mnav up container">
-  <ul>
-    <div class="brand">
-      
-       <%=cl_image_tag("flynn_zos4pt.png", :width=>88, :crop=>"scale") %>
-      
+<div class="navbar container ">
+  
+  
+<div class="logo">
+    <!-- Logo 
+     <%=cl_image_tag("flynn_zos4pt.png", :width=>88, :crop=>"scale") %>
+     -->
+     <img src="http://res.cloudinary.com/caroheymes/image/upload/c_scale,w_88/v1510870620/flynn_zos4pt.png" alt="">
+</div>
+   
+
+    <div class="container navbar-right">
+
+      <a href="#" class="navbar-item navbar-link">About</a>
+      <a href="#" class="navbar-item navbar-link">Docs</a>
+      <a href="#" class="navbar-item navbar-link">Blog</a>
+       <a href="#" id="btn" class="navbar-item navbar-link">Try</a>
     </div>
-
-    <li class="spacer"></li>
-
-    <li class="item ">
-      <a href="/about">About</a>
-    </li>
-
-    <li class="item ">
-      <a href="/docs">Docs</a>
-    </li>
-
-    <li class="item ">
-      <a href="/blog">Blog</a>
-    </li>
-
-    <li class="item ">
-      <a href="/pricing">Pricing</a>
-    </li>
-
-    <li class="item btn">
-      <a href="/docs/installation">Try</a>
-    </li>
-  </ul>
-</nav>
+</div>
 
 
-  <section class="content-container header index" id="demo">
-  <header class="h1">
+
+  <div class="container">
+
     <h1>
       Throw away the duct tape. <br />
-      Say hello to
-      <span class="flynn">Flynn</span>.
+      Say hello to Flynn.
     </h1>
-  </header>
+  
 
   <%=cl_image_tag("888x500_g5xdkt.png")%>
-</section>
+<div class="container redac">
+    <div class="extend">
+      <table>
+        <tbody>
+          <td><span class="triplette"><a href="https://flynn.io/apps">Apps</a></div></td>
+          <td><span class="triplette"> <a href="https://flynn.io//manage">Manage</a></div></td>
+          <td><span class="triplette"><a href="https://flynn.io//databases">Databases</a></div></td>
+        </tbody>
+      </table>
+    </div>
+      
+             
+    
 
-<nav class="hnav">
-  <ul>
-    <li class="">
-      <a href="/apps">Apps</a>
-    </li>
-
-    <li class="">
-      <a href="/manage">Manage</a>
-    </li>
-
-    <li class="">
-      <a href="/databases">Databases</a>
-    </li>
-  </ul>
-</nav>
-
-
-<section class="content-container narrow-centered">
-  <header>
+ 
     <h2>Powerful and easy. The way it should be.</h2>
-  </header>
 
-  <h4>
+
+  
     <strong>Flynn is an open source platform (PaaS) for running applications in production.</strong>
-  </h4>
+ 
 
   <p>It does everything you need, out of the box:</p>
 
-  <div class="content">
+
     <ul>
       <li>Creates running <a href="/apps">applications</a> directly from your code so there's no need to learn configuration management or build custom stacks for each app</li>
       <li>Routes and load balances traffic to every instance of each of your apps</li>
@@ -80,25 +62,16 @@
       <li>Makes <a href="/manage">scaling</a> your cluster to just the right size easy so you save money on your cloud bills</li>
     </ul>
   </div>
-</section>
 
-<section class="centered">
-  <a href="/docs/installation" class="try-now-btn">
+
+
+  <a href="#" class="try-now-btn">
     Try Flynn Now
   </a>
-</section>
 
-<section class="content-container narrow-centered header-only">
-  <article>
-    <header>
       <h2>Whatever you need,<br/> Flynn can help.</h2>
-    </header>
-  </article>
-</section>
 
-<section class="content-container stacked narrow-centered">
-  <article>
-    <header>
+
       <h3>Getting apps running in the cloud <br/>is way too hard.</h3>
     </header>
 
@@ -130,15 +103,9 @@
     <p>
       And like all good things, it's completely free.
     </p>
-  </article>
-</section>
-
-<section class="content-container stacked narrow-centered">
-  <article>
-    <header>
+  
       <h3>Growth is hard.</h3>
-    </header>
-
+   
     <p>
       Users love your product and you're growing like crazy.  Your engineering
       team is already stretched thin keeping up with growth.
@@ -167,14 +134,10 @@
       Databases manage themselves. Service discovery, scheduling, containers,
       routing, and cluster management are all taken care of in the background.
     </p>
-  </article>
-</section>
-
-<section class="content-container stacked narrow-centered">
-  <article>
-    <header>
+  
+    
       <h3>Your world is changing too quickly.</h3>
-    </header>
+   
 
     <p>
       New languages, frameworks, version control systems, databases,
@@ -201,16 +164,9 @@
     <p>
       It's free and open source so you can have tomorrow's technology today
       without any lock-in.
-    </p>
-  </article>
-</section>
-
-<section class="content-container stacked narrow-centered">
-  <article>
-    <header>
+    
       <h3>We can run it for you.</h3>
-    </header>
-
+    
     <p>
     You can run Flynn yourself or our experienced team can install, run, and
     manage a Flynn cluster for you. We work with your developers to help you
@@ -222,13 +178,11 @@
     We can also support your ops, IT, or sysadmins team 24/7 if you prefer to
     handle things yourself but still want help on call.
     </p>
-  </article>
-</section>
-
-
-  <footer id="footer">
-  <section class="content-container">
-    <a href="/docs/installation" class="try-now-btn">
+  </p></div>
+  
+  <div class="container">
+    footer id="footer">
+    <a href="#" class="try-now-btn">
       Try Flynn Now
     </a>
 
@@ -241,9 +195,7 @@
   <button type="submit" name="subscribe">Subscribe</button>
 </form>
 
-    </section>
-    <br/><br/><br/>
-
+    
     <nav class="fnav">
       <ul>
         <li>
@@ -279,3 +231,4 @@
     <a href="/legal/privacy">Privacy Policy</a> | <a href="/docs/trademark-guidelines">Trademark Guidelines</a>
   </section>
 </footer>
+  </div> 
