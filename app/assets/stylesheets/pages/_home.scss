@@ -1,8 +1,8 @@
 // Pour tous les liens
-.a{
+a{
     text-decoration : none !important;
 }
-.a:hover{
+a:hover{
     text-decoration : none !important;
 }
 //image de fond
@@ -16,12 +16,11 @@
   font-weight: lighter;
   color: rgb(255, 255, 255);
   opacity: 0.6;
-
 }
 //Container du haut
 .moncontainer{
 	width: 900px;
-	margin: 0px auto;
+	margin: 0 auto;
 	
 }
 
